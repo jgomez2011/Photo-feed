@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/6f17507720.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center"><img width="40px" height="40px" src="https://fastly.picsum.photos/id/435/200/300.jpg?hmac=gSfIK7r5rB4f3aJq0RTylep967d4sBRbIUuAOuq433o" alt=""><p>Your Moments</p></a>
+      <form class="d-flex" role="search">
+        <button type="button" class="btn btn-success">Create new post</button>
+        <div class="btn-group">
+          <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-cog"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+          </ul>
+        </div>
+
+    </div>
+  </nav>
+  <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist" d-center>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+        role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fas fa-th"></i>
+      </button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
+        role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fas fa-th-list"></i>
+      </button>
+    </li>
+  </ul>
+  <div class="tab-content p-3" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+      <div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-4">
+              <img class="w-100 h-100 p-1"
+                src="https://thumbs.dreamstime.com/b/paisajes-de-yosemite-46208063.jpg"
+                alt="">
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100 p-1" src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos.jpg" alt="">
+            </div>
+            <div  class="col-4">
+              <img class="w-100 h-100 p-1"src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" alt="">
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100 p-1"
+                src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg"
+                alt="">
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100 p-1" src="https://www.nationalgeographic.com.es/medio/2018/02/27/playa-de-isuntza-lekeitio__1280x720.jpg" alt="">
+            </div>
+            <div  class="col-4">
+              <img class="w-100 h-100 p-1"src="https://static3.leonoticias.com/www/multimedia/202107/06/media/MM-senderismo-asturias/oddle-1-ksRC--1350x900@El%20Comercio.jpg" alt="">
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100 p-1"
+                src="http://miracomohacerlo.com/wp-content/uploads/2016/10/Fotos-de-paisajes.jpg"
+                alt="">
+            </div>
+            <div class="col-4">
+              <img class="w-100 h-100 p-1" src="https://www.xtrafondos.com/descargar.php?id=5846&resolucion=2560x1440" alt="">
+            </div>
+            <div  class="col-4">
+              <img class="w-100 h-100 p-1"src="https://cdn.shortpixel.ai/spai/q_lossless+w_1082+to_webp+ret_img/https://independent-photo.com/wp-content/uploads/2022/02/Yifeng-Ding-scaled.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+      <div class="d-flex flex-column align-items-center p-3">
+        <div class="w-50 h-75  border border-3 ">
+          <div class="p-1 d-flex justify-content-between ">
+            <p><b>Ultima Publicacion</b></p>
+            <p>31/01</p>
+          </div>
+          <div class="body img">
+            <img width="100%"
+              src="https://thumbs.dreamstime.com/b/paisajes-de-yosemite-46208063.jpg"
+              alt="imagen">
+          </div>
+          <div class="contents-footer p-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque aliquid provident dolorem quaerat praesentium a nobis, ipsa facilis distinctio.</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center p-3">
+        <div class="w-50 h-75  border border-3 ">
+          <div class="p-1 d-flex justify-content-between ">
+            <p><b>Octava Publicacion</b></p>
+            <p>27/01</p>
+          </div>
+          <div class="body img">
+            <img width="100%"
+              src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos.jpg"
+              alt="imagen">
+          </div>
+          <div class="contents-footer p-1">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id eius, enim iure nisi autem quidem quisquam. Eveniet dolorem quo saepe!</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center p-3">
+        <div class="w-50 h-75  border border-3 ">
+          <div class="p-1 d-flex justify-content-between ">
+            <p><b>Septima Publicacion</b></p>
+            <p>25/01</p>
+          </div>
+          <div class="body img">
+            <img width="100% h-100"
+              src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" alt="">
+            </div>
+          
+          <div class="contents-footer p-1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, commodi. Voluptatem, dignissimos officia voluptates libero alias provident? Inventore, saepe accusamus?</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center p-3">
+        <div class="w-50 h-75  border border-3 ">
+          <div class="p-1 d-flex justify-content-between ">
+            <p><b>Sexta Publicacion</b></p>
+            <p>20/01</p>
+          </div>
+          <div class="body img">
+            <img width="100%"
+              src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg"
+              alt="imagen">
+          </div>
+          <div class="contents-footer p-1">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, eum reiciendis animi ad aut perferendis minima rerum molestias voluptates soluta?</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center p-3">
+        <div class="w-50 h-75  border border-3 ">
+          <div class="p-1 d-flex justify-content-between ">
+            <p><b>Quinta Publicacion</b></p>
+            <p>15/01</p>
+          </div>
+          <div class="body img">
+            <img width="100%"
+              src="https://www.nationalgeographic.com.es/medio/2018/02/27/playa-de-isuntza-lekeitio__1280x720.jpg"
+              alt="imagen">
+          </div>
+          <div class="contents-footer p-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dignissimos nam neque ipsam quaerat corporis modi eaque! Expedita, magni nostrum!</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center p-3">
+        <div class="w-50 h-75  border border-3 ">
+          <div class="p-1 d-flex justify-content-between ">
+            <p><b>Cuarta Publicacion</b></p>
+            <p>14/01</p>
+          </div>
+          <div class="body img">
+            <img width="100%"
+              src="https://static3.leonoticias.com/www/multimedia/202107/06/media/MM-senderismo-asturias/oddle-1-ksRC--1350x900@El%20Comercio.jpg"
+              alt="imagen">
+          </div>
+          <div class="contents-footer p-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore eligendi fugiat aut velit, commodi sunt est quisquam recusandae quasi alias deleniti repellat labore voluptate..</p>
+          </div>
+        </div>
+      </div><div class="d-flex flex-column align-items-center p-3">
+        <div class="w-50 h-75  border border-3 ">
+          <div class="p-1 d-flex justify-content-between ">
+            <p><b>Tercera Publicacion</b></p>
+            <p>10/01</p>
+          </div>
+          <div class="body img">
+            <img width="100%"
+              src="http://miracomohacerlo.com/wp-content/uploads/2016/10/Fotos-de-paisajes.jpg"
+              alt="imagen">
+          </div>
+          <div class="contents-footer p-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate laboriosam quod repudiandae reiciendis consequatur! Nisi laudantium veniam optio tempore inventore, quod minus animi temporibus iusto, modi nobis sit quasi voluptatum?</p>
+          </div>
+        </div>
+      </div><div class="d-flex flex-column align-items-center p-3">
+        <div class="w-50 h-75  border border-3 ">
+          <div class="p-1 d-flex justify-content-between ">
+            <p><b>Segunda Publicacion</b></p>
+            <p>06/01</p>
+          </div>
+          <div class="body img">
+            <img width="100%"
+              src="https://www.xtrafondos.com/descargar.php?id=5846&resolucion=2560x1440"
+              alt="imagen">
+          </div>
+          <div class="contents-footer p-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil est rem nemo voluptatibus aperiam! Veniam doloribus qui placeat est saepe. Quia dolor explicabo praesentium mollitia?</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center p-3">
+        <div class="w-50 h-75  border border-3 ">
+          <div class="p-1 d-flex justify-content-between ">
+            <p><b>Primera Publicacion</b></p>
+            <p>02/01</p>
+          </div>
+          <div class="body img">
+            <img width="100%"
+              src="https://cdn.shortpixel.ai/spai/q_lossless+w_1082+to_webp+ret_img/https://independent-photo.com/wp-content/uploads/2022/02/Yifeng-Ding-scaled.jpeg"
+              alt="imagen">
+          </div>
+          <div class="contents-footer p-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit id ducimus vero iusto error,
+              reprehenderit tempora? Velit alias quisquam ipsam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
